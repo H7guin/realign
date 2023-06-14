@@ -1,0 +1,213 @@
+/*Tudo*/
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: #323232;
+   border: none;
+   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+Body {
+   background-color: #7C8046;
+}
+
+textarea:focus,
+input:focus {
+   outline: none;
+}
+
+/*NAVBAR*/
+
+#navbar a {
+   text-decoration: none;
+   transition: 0.3s;
+ }
+ 
+ #navbar a:hover {
+   opacity: 0.7;
+ }
+ 
+ img{
+   height: 8vh;
+ }
+ 
+ nav {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background: aliceblue;
+   height: 8vh;
+   border-bottom: #323232;
+ }
+ 
+ .nav-list {
+   list-style: none;
+   display: flex;
+ }
+ 
+ .nav-list li {
+   letter-spacing: 3px;
+   margin-left: 32px;
+ }
+ 
+ .mobile-menu {
+   display: none;
+   cursor: pointer;
+ }
+ 
+ .mobile-menu div {
+   width: 32px;
+   height: 2px;
+   background: #fff;
+   margin: 8px;
+   transition: 0.3s;
+ }
+ 
+ @media (max-width: 999px) {
+   body {
+     overflow-x: hidden;
+   }
+   .nav-list {
+     position: absolute;
+     top: 8vh;
+     right: 0;
+     width: 50vw;
+     height: 92vh;
+     background: aliceblue;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     transform: translateX(100%);
+     transition: transform 0.3s ease-in;
+   }
+   .nav-list li {
+     margin-left: 0;
+     opacity: 0;
+   }
+   .mobile-menu {
+     display: block;
+   }
+ }
+ 
+ .nav-list.active {
+   transform: translateX(0);
+ }
+ 
+ @keyframes navLinkFade {
+   from {
+     opacity: 0;
+     transform: translateX(50px);
+   }
+   to {
+     opacity: 1;
+     transform: translateX(0);
+   }
+ }
+ 
+ .mobile-menu.active .line1 {
+   transform: rotate(-45deg) translate(-8px, 8px);
+ }
+ 
+ .mobile-menu.active .line2 {
+   opacity: 0;
+ }
+ 
+ .mobile-menu.active .line3 {
+   transform: rotate(45deg) translate(-5px, -7px);
+ }
+ 
+
+/*Login*/
+a {
+   font-size: .9rem;
+}
+
+a:hover {
+   color: #054775;
+}
+
+#login-container {
+   background-color: aliceblue;
+   width: 400px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 20px 30px;
+   margin-top: 10vh;
+   border-radius: 10px;
+   text-align: center;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+form {
+   margin-top: 30px;
+   margin-bottom: 40px;
+}
+
+label,
+input {
+   display: block;
+   width: 100%;
+   text-align: left;
+}
+
+label {
+   font-weight: bold;
+   font-size: .9rem;
+}
+
+input {
+   border-bottom: 2px solid #323232;
+   padding: 10px;
+   font-size: 1rem;
+   margin-bottom: 20px;
+}
+
+input:focus {
+   border-bottom: 2px solid #44946c;
+   transition: .5s;
+}
+
+#forgot-pass {
+   text-align: right;
+   display: block;
+}
+
+input[type="submit"] {
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   border: none;
+   height: 40px;
+   border-radius: 20px;
+   margin-top: 30px;
+   color: white;
+   background-color: #1d6b44;
+   cursor: pointer;
+}
+
+input[type="submit"]:hover {
+   background-color: #043f29;
+   transition: .5s;
+}
+
+#social-container,
+#social-contianer p {
+   margin-bottom: 20px;
+}
+
+#social-container i {
+   height: 40px;
+   width: 40px;
+   background-color: #043f29;
+   border-radius: 50%;
+   line-height: 40px;
+   color: white;
+   margin: 0 5px;
+   margin-bottom: 20px;
+   cursor: pointer;
+}
+
+#register-container p {
+   margin-bottom: 10px;
+}
