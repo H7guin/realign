@@ -12,10 +12,7 @@
     background-color: #7C8046;
  }
  
- textarea:focus,
- input:focus {
-    outline: none;
- }
+ 
  
  /*NAVBAR*/
  
@@ -117,4 +114,10 @@
     transform: rotate(45deg) translate(-5px, -7px);
   }
   
- 
+ /*DIV COLETA*/
+ .coleta div {
+ margin-top: 50%;
+  background-color: bisque;
+  height: 100%;
+  width: 100%;
+ }
