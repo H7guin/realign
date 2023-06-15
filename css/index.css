@@ -18,6 +18,7 @@
  
  #navbar a {
     text-decoration: none;
+    font-weight: bold;
     transition: 0.3s;
   }
   
@@ -115,9 +116,78 @@
   }
   
  /*DIV COLETA*/
- .coleta div {
- margin-top: 50%;
+ .coleta {
+ margin-top:8vh;
   background-color: bisque;
   height: 100%;
   width: 100%;
  }
+
+
+
+ 
+/*coleta*/
+
+
+#coleta {
+  background-color: aliceblue;
+  width: 150vh;
+  height: 500px;
+  margin-left: 5vh;
+  margin-right: auto;
+  padding: 20px 30px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+/*coperado do mes*/
+
+
+#coperado {
+  background-color: aliceblue;
+  width: 150vh;
+  height: 500px;
+  margin-left: auto;
+  margin-right: 5vh;
+  padding: 20px 30px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+/*Rodape*/
+footer {
+  background-color:aliceblue;
+  padding: 20px 0;
+  margin-top: 15vh;
+  height: 100px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content p {
+  margin: 0;
+}
+
+nav a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #555;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
