@@ -17,7 +17,7 @@ input:focus {
    outline: none;
 }
 
-/*NAVBAR*/
+/*Navbar*/
 
 #navbar a {
    text-decoration: none;
@@ -50,6 +50,31 @@ input:focus {
    letter-spacing: 3px;
    margin-left: 32px;
  }
+
+ .login-buton{
+   display: block;
+   align-items: center;
+   font-weight: bold;
+   height: 40px;
+   padding: 10px;
+   border-radius: 10px;
+   background-color: #7C8046;
+   cursor: pointer;
+ }
+
+ .login-buton:hover{
+   background-color: #535726;
+   transition: 0.5s;
+ }
+
+ .login-buton ul{
+   list-style: none;
+ }
+
+ .login-buton a{
+   letter-spacing: 1px;
+   color: aliceblue;
+}
  
  .mobile-menu {
    display: none;
@@ -59,7 +84,7 @@ input:focus {
  .mobile-menu div {
    width: 32px;
    height: 2px;
-   background: #fff;
+   background: #323232;
    margin: 8px;
    transition: 0.3s;
  }
@@ -168,6 +193,8 @@ input[type="submit"]:hover {
    background-color: aliceblue;
    border-radius: 10px;
    padding: 25px;
+   margin-top: 4vh;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
 }
 
 #main-container h1 {
@@ -193,7 +220,7 @@ form {
 }
 
 #senhaconfirm {
-   margin-top: 10%;
+   margin-top: 7.5%;
 }
 
 #aceitamento {
