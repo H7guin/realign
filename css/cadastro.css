@@ -22,6 +22,7 @@ input:focus {
 #navbar a {
   text-decoration: none;
   transition: 0.3s;
+  font-weight: bolder;
 }
 
 #navbar a:hover {

@@ -22,6 +22,7 @@
   #navbar a {
     text-decoration: none;
     transition: 0.3s;
+    font-weight: bolder;
   }
   
   #navbar a:hover {
@@ -176,6 +177,7 @@
   
   .coperado-texto p {
     text-align: left;
+    font-weight:bolder  ;
   }
   
   .coperado-texto button {
