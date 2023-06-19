@@ -9,7 +9,7 @@
   }
   
   Body {
-    background-color: #7C8046;
+    background-color: #f5e7cc;
   }
   
   textarea:focus,
@@ -153,7 +153,7 @@
   
   .divcooperado {
     display: flex;
-    background-color: aliceblue;
+    background-color:#919974;
     width: 150vh;
     height: 500px;
     margin-left: auto;
@@ -170,12 +170,14 @@
   }
   
   .coperado-texto h1 {
+    color: aliceblue;
     text-align: left;
     margin-bottom: auto;
     margin-top: 5vh;
   }
   
   .coperado-texto p {
+    color: aliceblue;
     text-align: left;
     font-weight:bolder ;
   }

@@ -143,7 +143,7 @@ nav {
 
 
 #coleta {
-  background-color: aliceblue;
+  background-color: #f5e7cc;
   width: 150vh;
   height: 500px;
   display: flex;
@@ -158,26 +158,34 @@ nav {
 
 .coleta-texto {
   width: 50%;
+  margin-top: 3cm;
+  font-weight: bold;
 }
 
 .coleta-texto h1 {
   text-align: left;
   margin-bottom: 1vh;
+  color:#464939;
 }
 
 .coleta-texto p {
   text-align: left;
+  color:#464939;
 }
 
 .coleta-texto button {
-  display: flex;
-  margin-top: 2rem;
-  border-style: solid;
-  border-width: 1vh;
-  border-color: #535726;
-  padding: 0.62rem;
-  border-radius: 5px;
-  cursor: pointer;
+  margin-top: 1cm;
+  align:center;
+  display: block;
+  align-items: center;
+  font-weight: bold;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  letter-spacing: 1px;
+  color: aliceblue;
+  font-size: 18px;
 }
 
 button a {
@@ -196,8 +204,9 @@ button a {
 
 
 #coperado {
+  
   display: flex;
-  background-color: aliceblue;
+  background-color: #f5e7cc;
   width: 150vh;
   height: 500px;
   margin-left: auto;
@@ -210,27 +219,37 @@ button a {
 }
 
 .coperado-texto {
+ 
   width: 50%;
+  margin-top: 3cm;
+  font-weight: bold;
 }
 
 .coperado-texto h1 {
+  color:#646950;
   text-align: left;
-  margin-bottom: 1vh;
+  margin-bottom: 2vh;
 }
 
 .coperado-texto p {
+  color:#646950;
   text-align: left;
+  
 }
 
 .coperado-texto button {
-  display: flex;
-  margin-top: 2rem;
-  border-style: solid;
-  border-width: 1vh;
-  border-color: #535726;
-  padding: 0.62rem;
-  border-radius: 5px;
-  cursor: pointer;
+ margin-top: 1cm;
+  align:center;
+  display: block;
+  align-items: center;
+  font-weight: bold;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  letter-spacing: 1px;
+  color: aliceblue;
+  font-size: 18px;
 }
 
 .coperado-imagem {
