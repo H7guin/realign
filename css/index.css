@@ -165,17 +165,16 @@ nav {
 .coleta-texto h1 {
   text-align: left;
   margin-bottom: 1vh;
-  color:#464939;
+  color: #464939;
 }
 
 .coleta-texto p {
   text-align: left;
-  color:#464939;
+  color: #464939;
 }
 
 .coleta-texto button {
   margin-top: 1cm;
-  align:center;
   display: block;
   align-items: center;
   font-weight: bold;
@@ -197,14 +196,14 @@ button a {
 }
 
 .coleta-imagem img {
-  height: 70vh;
+  height: 57vh;
 }
 
 /*coperado do mes*/
 
 
 #coperado {
-  
+
   display: flex;
   background-color: #f5e7cc;
   width: 150vh;
@@ -219,27 +218,26 @@ button a {
 }
 
 .coperado-texto {
- 
+
   width: 50%;
   margin-top: 3cm;
   font-weight: bold;
 }
 
 .coperado-texto h1 {
-  color:#646950;
+  color: #646950;
   text-align: left;
   margin-bottom: 2vh;
 }
 
 .coperado-texto p {
-  color:#646950;
+  color: #646950;
   text-align: left;
-  
+
 }
 
 .coperado-texto button {
- margin-top: 1cm;
-  align:center;
+  margin-top: 1cm;
   display: block;
   align-items: center;
   font-weight: bold;
@@ -300,4 +298,3 @@ footer {
 .footer-content a:hover {
   text-decoration: underline;
 }
-  
