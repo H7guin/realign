@@ -285,6 +285,7 @@ footer {
 }
 
 .footer-content p {
+  justify-content: column;
   margin: 0;
 }
 

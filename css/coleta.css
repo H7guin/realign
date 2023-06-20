@@ -166,19 +166,9 @@ nav {
     height: 100%;
     width: 100%;
     position: absolute;
-    border-radius: 10px;
 }
 
 /*Formulario*/
-
-a {
-    font-size: .9rem;
-    background-color: aliceblue;
-}
-
-a:hover {
-    color: #054775;
-}
 
 form {
     display: flex;
@@ -203,8 +193,18 @@ input:focus {
     transition: .5s;
 }
 
+button {
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+button:hover{
+    background-color: rgb(194, 206, 216);
+    transition: 0.5s;
+}
 
 button a {
+    display: block;
     align-items: center;
     font-weight: bold;
     height: 40px;
@@ -215,6 +215,12 @@ button a {
     color: #E49052;
     font-size: 18px;
     text-decoration: none;
+    margin-bottom: 1vh;
+}
+
+button a:hover {
+    color: #c7631b;
+    transition: 0.5s;
 }
 
 /*Rodape*/
