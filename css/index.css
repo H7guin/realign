@@ -53,6 +53,7 @@ nav {
 }
 
 .login-buton button {
+  cursor: pointer;
   display: block;
   align-items: center;
   font-weight: bold;
@@ -144,8 +145,8 @@ nav {
 
 #coleta {
   background-color: #f5e7cc;
-  width: 150vh;
-  height: 500px;
+  width: 70%;
+  height: 80vh;
   display: flex;
   margin-left: 5vh;
   margin-right: auto;
@@ -196,7 +197,7 @@ button a {
 }
 
 .coleta-imagem img {
-  height: 57vh;
+  height: 70vh;
 }
 
 /*coperado do mes*/
@@ -206,8 +207,8 @@ button a {
 
   display: flex;
   background-color: #f5e7cc;
-  width: 150vh;
-  height: 500px;
+  width: 70%;
+  height: 80vh;
   margin-left: auto;
   margin-right: 5vh;
   padding: 20px 30px;
@@ -276,6 +277,7 @@ footer {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 15px;
+  display: column;
 }
 
 .footer-content {
@@ -295,7 +297,13 @@ footer {
   color: #555;
 }
 
-
 .footer-content a:hover {
   text-decoration: underline;
+}
+
+.footer-content2{
+  margin-top: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

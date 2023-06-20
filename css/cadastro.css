@@ -53,6 +53,7 @@ nav {
 }
 
 .login-buton button {
+  cursor: pointer;
   display: block;
   align-items: center;
   font-weight: bold;
